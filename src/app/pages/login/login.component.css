@@ -4,10 +4,24 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("src/assets/img/home_back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
 }
 
 .login-form {
-  max-width: 400px;
+  max-width: 500px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(60, 60, 60, 0.5);
+  box-shadow: 15px 10px 10px rgba(60, 60, 60, 0.8);
 }
 
 .login-form-margin {
@@ -19,5 +33,9 @@
 }
 
 .login-form-button {
-  width: 100%;
+  width: 90%;
+}
+
+.login-item {
+  width: 80%;
 }
